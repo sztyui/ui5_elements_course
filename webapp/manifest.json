@@ -123,6 +123,18 @@
                             }
                         }
                     }
+                },
+                "sap.ui.viewExtensions": {
+                    "sap.suite.ui.generic.template.ObjectPage.view.Details": {
+                        "AfterFacet|Products|Info": {
+                            "type": "XML",
+                            "className": "sap.ui.core.Fragment",
+                            "fragmentName": "northwindproducts.ext.fragment.MyCustomSection",
+                            "sap.ui.generic.app": {
+                                "title": "My Custom Section"
+                            }
+                        }
+                    }
                 }
             }
         }

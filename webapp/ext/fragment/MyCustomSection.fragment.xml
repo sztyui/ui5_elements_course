@@ -1,0 +1,6 @@
+<core:FragmentDefinition xmlns:core="sap.ui.core" xmlns="sap.m">
+    <VBox>
+        <Image src="https://www.eon.hu/etc.clientlibs/eon-hungary/clientlibs/clientlib-resources/resources/img/logo-red.svg"/>
+        <Text text="hello"/>
+    </VBox>
+</core:FragmentDefinition>
