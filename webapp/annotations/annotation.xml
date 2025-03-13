@@ -68,6 +68,44 @@
                         <PropertyValue Property="ImageUrl" String="REPLACE_WITH_IMAGE_URL_PATH"/>
                     </Record>
                 </Annotation>
+                <Annotation Term="UI.FieldGroup" Qualifier="info">
+                    <Record Type="UI.FieldGroupType">
+                        <PropertyValue Property="Data">
+                            <Collection>
+                                <Record Type="UI.DataField">
+                                    <PropertyValue Property="Value" Path="Discontinued"/>
+                                    <PropertyValue Property="Label" String="Discontinued"/>
+                                </Record>
+                                <Record Type="UI.DataField">
+                                    <PropertyValue Property="Value" Path="ReorderLevel"/>
+                                    <PropertyValue Property="Label" String="ReorderLevel"/>
+                                </Record>
+                                <Record Type="UI.DataField">
+                                    <PropertyValue Property="Value" Path="QuantityPerUnit"/>
+                                    <PropertyValue Property="Label" String="QuantityPerUnit"/>
+                                </Record>
+                                <Record Type="UI.DataField">
+                                    <PropertyValue Property="Value" Path="Supplier/ContactName"/>
+                                    <PropertyValue Property="Label" String="Supplier/ContactName"/>
+                                </Record>
+                                <Record Type="UI.DataField">
+                                    <PropertyValue Property="Value" Path="Supplier/Phone"/>
+                                    <PropertyValue Property="Label" String="Supplier/Phone"/>
+                                </Record>
+                            </Collection>
+                        </PropertyValue>
+                        <PropertyValue Property="Label" String="Info"/>
+                    </Record>
+                </Annotation>
+                <Annotation Term="UI.Facets">
+                    <Collection>
+                        <Record Type="UI.ReferenceFacet">
+                            <PropertyValue Property="Label" String="info"/>
+                            <PropertyValue Property="ID" String="Info"/>
+                            <PropertyValue Property="Target" AnnotationPath="@UI.FieldGroup#info"/>
+                        </Record>
+                    </Collection>
+                </Annotation>
             </Annotations>
         </Schema>
     </edmx:DataServices>
