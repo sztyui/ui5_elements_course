@@ -127,7 +127,8 @@
               }
             },
             "tableSettings": {
-              "type": "ResponsiveTable"
+              "type": "ResponsiveTable",
+              "multiSelect": true
             },
             "dataLoadSettings": {
               "loadDataOnAppLaunch": "always"
